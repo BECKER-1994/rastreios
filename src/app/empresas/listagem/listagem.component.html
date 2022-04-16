@@ -1,0 +1,31 @@
+<body>
+    <h3>Empresas</h3>
+
+    <table class="table">
+        <thead class="thead-dark" >
+            <tr>
+                <th scope="col">NOME</th>
+               
+            </tr>
+        </thead>
+
+        <tbody>
+            
+            <tr *ngFor = "let empresa of listaEmpresas">
+            
+                <td> 
+                    {{empresa.nome}}
+                    
+                </td>
+    
+                <td>
+                    <button class="btn btn-sm btn-outline-primary" style="margin-left: 50%;">Alterar</button>
+                    <button class="btn btn-sm btn-outline-danger" (click)="excluirEmpresa(empresa)" >Remover</button>
+                    
+                </td>
+            </tr>
+          
+        </tbody> 
+    </table> 
+
+</body>
