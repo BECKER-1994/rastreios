@@ -15,7 +15,7 @@ export class ListagemComponent implements OnInit {
   listaEmpresas: any;
   referenciaTabelaEmpresas: AngularFireList<Empresa>;
 
-  constructor(private banco: AngularFireDatabase, publicrouter: Router) {
+  constructor(private banco: AngularFireDatabase, public router: Router) {
     this.referenciaTabelaEmpresas = banco.list('/empresas');
    }
 

@@ -10,6 +10,8 @@ import { AngularFireModule} from "@angular/fire/compat";
 import { AngularFireDatabaseModule} from '@angular/fire/compat/database';
 import { environment} from 'src/environments/environment';
 
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -18,6 +20,7 @@ import { environment} from 'src/environments/environment';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
+    FormsModule,
     EmpresasModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule

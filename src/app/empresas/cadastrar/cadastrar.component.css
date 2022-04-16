@@ -1,0 +1,30 @@
+
+body{
+    margin:6%;
+    margin-top: 15%;
+    margin-left: 40%;
+    background-color: #f4f4f4;
+    font-size: larger;
+    
+}
+
+input{
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+button{
+    margin-right: 9%;
+    margin-bottom: 20%;
+}
+
+label{
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+h2{
+    margin: 5%;
+    justify-content: center;
+}

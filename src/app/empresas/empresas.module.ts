@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ListagemComponent } from './listagem/listagem.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
-
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -11,7 +11,8 @@ import { CadastrarComponent } from './cadastrar/cadastrar.component';
     CadastrarComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ]
 })
 export class EmpresasModule { }
