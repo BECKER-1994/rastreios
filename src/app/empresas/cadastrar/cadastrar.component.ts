@@ -19,7 +19,7 @@ export class CadastrarComponent implements OnInit {
 
   ngOnInit(): void {
     
-    this.novaempresa = new Empresa("", "");
+    this.novaempresa = new Empresa("");
   }
 
   incluirEmpresa():void{
