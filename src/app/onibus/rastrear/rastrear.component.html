@@ -1,0 +1,18 @@
+<div class="mapa" *ngFor="let local of listaLocal">
+
+
+   <a>
+      <span (click)="router.navigate(['/onibus'])"> < Voltar</span>
+    </a>
+    
+   <agm-map 
+   [latitude]=local.latitude
+   [longitude]=local.longitude
+   [zoom]="18">
+   <agm-marker 
+   [latitude]=local.latitude
+   [longitude]=local.longitude
+   ></agm-marker>
+   
+   </agm-map>
+   </div>

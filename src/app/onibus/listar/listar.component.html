@@ -1,0 +1,33 @@
+<body>
+    <h3>Onibus</h3>
+
+    <table class="table">
+        <thead class="thead-dark" >
+            <tr>
+                <th scope="col">NOME</th>
+                
+                <th><button class="btn btn-sm btn-outline-primary" (click)="router.navigate(['/listagemempresas'])">Voltar</button>
+                    <button (click)="router.navigate(['/cadastraronibus'])" class="btn btn-sm btn-outline-success" 
+                    style="margin-right: 2%;">ADICIONAR</button></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            
+            <tr *ngFor = "let onibus of listaOnibus">
+            
+                <td> 
+                    {{onibus.placa}}
+                   
+                </td>
+    
+                <td>
+                    <button class="btn btn-sm btn-outline-danger" (click)="excluirOnibus(onibus)" >Remover</button>
+                    <button (click)="router.navigate(['/mapa'])" class="btn btn-sm btn-outline-success" >Rastrear</button>
+                     </td>
+            </tr>
+          
+        </tbody> 
+    </table> 
+
+</body>

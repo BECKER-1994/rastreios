@@ -11,7 +11,7 @@ body{
 
 .nav-container{
     position: relative;
-    margin: 1.6%;
+    margin: 1.5%;
     box-sizing: border-box;
 }
 
@@ -33,8 +33,8 @@ body{
 ul{
     display: flex;
     background: rgb(255, 255, 255, .3);
-    padding-left: 20px;
-	padding-right: 20px;
+    padding-left: 10px;
+	padding-right: 10px;
     font-weight: 450;
 }
 
@@ -43,7 +43,7 @@ li{
     align-items: center;
     cursor: pointer;
     user-select: none;
-    margin-left: 1.4%;
+    margin-left: 1.2%;
 }
 
 li:first-child{

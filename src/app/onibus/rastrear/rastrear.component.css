@@ -1,0 +1,26 @@
+span:hover{
+    cursor: pointer;
+}
+
+span{
+    letter-spacing: .25em;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-bottom: 2%;
+    margin-left:1%;
+    margin-top: 13%;
+    color:rgb(104, 52, 34) ;
+    font-size: larger;
+}
+
+
+
+.mapa{
+    margin: 2%;
+    margin-top: 10%;
+}
+
+agm-map{
+    height: 100vh;
+}

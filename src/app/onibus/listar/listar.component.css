@@ -1,0 +1,39 @@
+body{
+    margin: 6%;
+    margin-top: 15%;
+    background-color: #f4f4f4;
+    
+}
+
+
+table{
+    font-size: large;
+}
+table button{
+    font-size: medium;
+}
+
+th button{
+    float: right;
+    margin-right: 0%;
+    font-size: large;
+   
+}
+
+table{
+    border-spacing: 5%;
+}
+td{
+    padding: 2%;
+
+}
+
+
+td button{
+    margin-right: 2%;
+}
+
+.edicao input{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}

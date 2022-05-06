@@ -9,7 +9,7 @@ import { EmpresasModule } from './empresas/empresas.module';
 import { AngularFireModule} from "@angular/fire/compat";
 import { AngularFireDatabaseModule} from '@angular/fire/compat/database';
 import { environment} from 'src/environments/environment';
-
+import { OnibusModule } from './onibus/onibus.module';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
@@ -22,6 +22,7 @@ import { FormsModule } from '@angular/forms';
     NgbModule,
     FormsModule,
     EmpresasModule,
+    OnibusModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule
   ],
